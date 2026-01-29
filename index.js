@@ -7,7 +7,7 @@ dotenv.config();
 const NODE_ENV = process.env.NODE_ENV;
 
 app.get("/", (req, res) => {
-    res.send(`Hello from POC18 Server, ENV - ${NODE_ENV}`);
+    res.send(`Hello from POC18 Server, ENV - ${NODE_ENV}, added feature 1`);
 })
 
 const PORT = process.env.PORT;
